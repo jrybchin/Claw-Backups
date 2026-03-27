@@ -59,6 +59,9 @@ System docs capture cross-cutting operating rules.
 Current system areas include:
 - documentation rules
 - memory and source-handling rules
+- memory backup and update rules
+- Drive live sync rules
+- multi-agent coordination continuity
 
 ### 3. Logic
 Logic docs explain the system at a big-picture level.
@@ -109,6 +112,16 @@ This includes:
 - table-of-contents style index rules
 - transferability logic
 - continuity-oriented documentation behavior
+- a memory backup/update system for post-implementation continuity
+- a narrow backend Drive live-sync layer for current-state tracking
+
+### Multi-Agent Coordination Layer
+This includes:
+- explicit agent roster and routing logic
+- shared live state
+- shared recovery brief / handoff structure
+- provider-auth tracking
+- future fallback and overflow agent coordination
 
 ---
 
@@ -147,6 +160,12 @@ What is still needed:
 - a clearer live context path for Codex
 - a more direct handoff workflow
 - possibly a persistent Codex session with access to the same workspace/docs
+- finishing the implementation of the GPT 5.3 backup / fallback bot for rate limits and context-window pressure
+
+### 6. Memory Backup & Update System
+The system now needs a stronger always-on pattern for updating memory, live/current docs, Drive mirrors, and backup continuity after meaningful implementation work.
+
+The goal is to make feature completion automatically produce usable continuity instead of leaving progress stranded in chat or only partially documented.
 
 ---
 
@@ -154,10 +173,11 @@ What is still needed:
 The strongest near-term order is:
 
 1. **Dedicated Claw Plan sync and maintenance**
-2. **Document role classification**
-3. **Memory and source-handling work**
-4. **Codex shared-access / connection design**
-5. **Further response-logic refinement only after the above is cleaner**
+2. **Memory backup / update system refinement and frequent-update file discipline**
+3. **Document role classification**
+4. **Memory and source-handling work**
+5. **Codex shared-access / connection design plus finishing the GPT 5.3 backup bot path**
+6. **Further response-logic refinement only after the above is cleaner**
 
 Lower priority for now:
 - feature lifecycle design

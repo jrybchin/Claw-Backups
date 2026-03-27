@@ -24,6 +24,7 @@ Classify current Claw documents by role so update behavior, review habits, and d
 - **Documentation Rules**
 - **Memory & Source Handling Rules**
 - **Crash Prevention & Fail-Safe Checklist**
+- **Channel Active Context**
 
 ### Acute
 - **Human System Explanation**
@@ -32,6 +33,12 @@ Classify current Claw documents by role so update behavior, review habits, and d
 - **Backup Lifeline: Codex Recovery Workflow**
 - **Codex Recovery Agent Instructions**
 - **Claw Full Sweep Prompt**
+
+### Static
+- **Backup Lifeline: Codex Recovery Workflow**
+- **Codex Recovery Agent Instructions**
+- **Claw Full Sweep Prompt**
+- **Channel Continuity & Active Context Layer**
 
 ### Reference
 - **GOG Setup & Repair Log**

@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.24",
-    "lastTouchedAt": "2026-03-26T21:22:23.337Z"
+    "lastTouchedAt": "2026-03-27T17:26:00.439Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-26T21:22:16.660Z",
@@ -13,8 +13,7 @@
     "profiles": {
       "openai-codex:jrybchin@gmail.com": {
         "provider": "openai-codex",
-        "mode": "oauth",
-        "email": "jrybchin@gmail.com"
+        "mode": "oauth"
       }
     }
   },
@@ -27,6 +26,15 @@
         "openai-codex/gpt-5.4": {}
       },
       "workspace": "/home/jrybc/.openclaw/workspace",
+      "memorySearch": {
+        "sources": [
+          "memory",
+          "sessions"
+        ],
+        "experimental": {
+          "sessionMemory": true
+        }
+      },
       "compaction": {
         "memoryFlush": {
           "enabled": true,
@@ -34,24 +42,25 @@
           "prompt": "Write a durable session note to memory/YYYY-MM-DD.md. Capture: decisions, constraints, open questions, owners, and any state that would break the plan if forgotten. If nothing meaningful happened, write NO_FLUSH.",
           "systemPrompt": "Be terse. Prefer bullet points. Do not rewrite the conversation. Reply with NO_REPLY unless there is a real problem."
         }
-      },
-      "memorySearch": {
-        "experimental": {
-          "sessionMemory": true
-        },
-        "sources": [
-          "memory",
-          "sessions"
-        ]
       }
     }
   },
   "tools": {
-    "profile": "coding",
-    "web": {
-      "search": {
+    "media": {
+      "audio": {
         "enabled": true,
-        "provider": "brave"
+        "maxBytes": 20971520,
+        "models": [
+          {
+            "type": "cli",
+            "command": "/home/jrybc/.openclaw/workspace/.venvs/stt/bin/python",
+            "args": [
+              "/home/jrybc/.openclaw/workspace/Claw/systems/scripts/transcribe_local_audio.py",
+              "{{MediaPath}}"
+            ],
+            "timeoutSeconds": 120
+          }
+        ]
       }
     }
   },
@@ -79,7 +88,7 @@
     }
   },
   "gateway": {
-    "port": 18789,
+    "port": 18889,
     "mode": "local",
     "bind": "loopback",
     "auth": {
@@ -100,6 +109,145 @@
         "reminders.add",
         "sms.send"
       ]
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": true
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
     }
   },
   "plugins": {

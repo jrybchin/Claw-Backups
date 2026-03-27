@@ -102,6 +102,7 @@ The main ideas are:
 - make future debugging easier
 - respond in a way that is easier to skim and finish reading
 - keep the roadmap and the logic layer aligned with the actual system state
+- keep important active context written down so other channels and restarted sessions can reconstruct what is going on
 
 ## How recovery fits into the system
 The system is being built so that if something breaks:

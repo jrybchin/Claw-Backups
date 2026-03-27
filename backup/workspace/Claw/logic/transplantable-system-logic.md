@@ -134,9 +134,10 @@ Requirements:
 - Search broadly before concluding something is missing.
 - Use enough raw source material to avoid missing instructions or inventing gaps.
 - Preserve nuance from long material even when summarizing.
-- Treat Google Drive as a searchable knowledge source rather than blind permanent memory.
-- Store durable preferences, rules, decisions, and workflows in structured docs.
-- Use memory and docs together rather than relying on one alone.
+- Treat Google Drive as a searchable knowledge source and mirrored documentation layer rather than blind permanent memory.
+- Store durable preferences, rules, decisions, workflows, and active continuity context in structured local docs.
+- Use memory, status docs, and active-context docs together rather than relying on one alone.
+- When cross-channel awareness matters, write the important temporary context into a compact active-context layer instead of assuming live session state is shared.
 
 ## Stability Logic
 - Stability comes before aggressive capability expansion.
@@ -173,7 +174,9 @@ Example:
 
 ## Human/Machine Mirroring Logic
 - Local workspace files serve as machine-friendly live source of truth.
+- Local Claw docs should be updated first when implementing changes or doing a sweep.
 - Google Docs serve as human-facing mirrored references and planning surfaces.
+- After local updates, the corresponding Drive docs should be swept and aligned so the mirror layer does not lag behind the real system state.
 - Important system logic should exist in durable local files even if mirrored to Drive.
 - Status docs should help external systems find the right context quickly.
 

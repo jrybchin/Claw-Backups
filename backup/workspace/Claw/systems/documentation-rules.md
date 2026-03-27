@@ -79,6 +79,8 @@ Claw documents are divided into these primary roles:
 
 ## Local / Drive Mirror Rules
 - The local Claw files should remain the main editable machine-facing source-of-truth layer most of the time.
+- Local Claw docs should be updated first during system work and full sweeps.
+- After local coherence is restored, the corresponding Google Drive Claw docs should be updated so the mirror/reference layer stays aligned.
 - Mirrored Google Docs should remain aligned with the local files.
 - Full sweeps should also check whether important Google Docs contain newer manual edits that should be synced back into the local Claw files.
 - If meaningful manual Drive edits exist, sync them back into the corresponding local files so the two layers do not drift apart.
@@ -106,6 +108,8 @@ Claw documents are divided into these primary roles:
 - Keep recovery-oriented docs easy to find and easy to skim under stress.
 - Preserve enough context that a backup agent or helper can diagnose the issue accurately.
 - Use docs to reduce dependence on fragile memory or scattered chat history during recovery.
+- When active cross-channel context matters, use a compact active-context layer so Telegram or other sessions do not behave as if current buildout work is unknown.
+- Do not assume live cross-session awareness; write down the temporary high-signal state that other channels need.
 
 ## Organization Rules
 - Use the Claw folder as a durable long-term documentation home for project rules and planning docs in Drive.

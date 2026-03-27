@@ -72,6 +72,7 @@ Keep machine-facing docs more precise and transferable.
 15. Keep the system organized. If a document belongs in a different folder or needs a clearer structure, fix that.
 
 16. Update Google Drive mirrored docs to match the improved local source-of-truth files.
+16a. Treat the sweep order as local Claw docs first, then Google Drive Claw docs second, unless meaningful newer manual Drive edits must first be pulled back into local files.
 
 17. Document changes in accordance with documentation standards for recordkeeping and system recovery.
 
