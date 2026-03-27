@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "lastRun": "2026-03-27T19:26:25.376055-04:00",
+  "docs": {
+    "active_tasks": {
+      "sha256": "b21a07b470b82d4e0e7d871ac84d01e8970281b2634859b650d8e1f8eb736082",
+      "lastSyncedAt": "2026-03-27T13:18:55.227554-04:00",
+      "driveDocId": "1_xfwcxKHj_s3Umpn_dpFQ2aecP0NcxcsfFCO7TULTuI",
+      "localPath": "Claw/logic/active-tasks-list.md"
+    },
+    "live_status": {
+      "sha256": "af76a2a7efbaa58b9c8acb73763f35fffc73fc18c79be7d8834729386188e56c",
+      "lastSyncedAt": "2026-03-27T13:18:56.179164-04:00",
+      "driveDocId": "1pAVSbUwCC-IxKf8gAi-8TqrnT1ZruuCEjOszNPYCl0g",
+      "localPath": "Claw/features/recovery-system/live-system-status-report.md"
+    }
+  }
+}
