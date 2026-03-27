@@ -1,0 +1,38 @@
+[2026-03-27 10:43:46] starting sanitized backup run at 2026-03-27 10:43:46 EDT
+captured 3 session log paths
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/AGENTS.md:29:Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/AGENTS.md:138:You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it small to limit token burn.
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/memory-and-source-handling-rules.md:68:## Task-Based Retrieval Strategy
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:44:    (re.compile(r'("botToken"\s*:\s*")[^"]+(")'), r'\1[TELEGRAM_BOT_TOKEN]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:45:    (re.compile(r'("token"\s*:\s*")[^"]+(")'), r'\1[TOKEN]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:46:    (re.compile(r'("apiKey"\s*:\s*")[^"]+(")'), r'\1[API_KEY]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:47:    (re.compile(r'("password"\s*:\s*")[^"]+(")'), r'\1[PASSWORD]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:48:    (re.compile(r'(botToken\s*[:=]\s*["\'])[^"\']+(["\'])'), r'\1[TELEGRAM_BOT_TOKEN]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:49:    (re.compile(r'(token\s*[:=]\s*["\'])[^"\']+(["\'])'), r'\1[TOKEN]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:50:    (re.compile(r'(apiKey\s*[:=]\s*["\'])[^"\']+(["\'])'), r'\1[API_KEY]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:51:    (re.compile(r'(password\s*[:=]\s*["\'])[^"\']+(["\'])'), r'\1[PASSWORD]\2'),
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:53:scan=re.compile(r'(AKIA|AIza|sk-[A-Za-z0-9]|xox[baprs]-|ghp_[A-Za-z0-9]|github_pat_|-----BEGIN|botToken|apiKey|token|password|secret|authorization|Bearer )')
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:87:    token=data['channels']['telegram']['botToken']
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/systems/scripts/run_claw_backup.sh:89:    url=f'https://api.telegram.org/bot{token}/sendMessage'
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:16:- but it could not unlock the stored token inside the OpenClaw runtime
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:19:- `read token: no TTY available for keyring file backend password prompt; set GOG_KEYRING_PASSWORD`
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:27:- the service environment did not inherit the shell’s GOG keyring password
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:33:- the shell had the password
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:56:The decisive fix was making the keyring password available to the actual service runtime, not just to the shell.
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-setup-and-repair-log.md:77:2. auth/token state
+/home/jrybc/.openclaw-backup-work/sanitized/workspace/Claw/features/gog/gog-feature-overview.md:49:- GOG token access depends on the runtime environment being configured correctly.
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/openclaw.json:71:      "botToken": "[TELEGRAM_BOT_TOKEN]",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/openclaw.json:86:      "mode": "token",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/openclaw.json:87:      "token": "[TOKEN]"
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/openclaw.json:111:            "apiKey": "[API_KEY]"
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/devices/paired.json:26:    "tokens": {
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/devices/paired.json:28:        "token": "[TOKEN]",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/devices/paired.json:69:    "tokens": {
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/devices/paired.json:71:        "token": "[TOKEN]",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/identity/device.json:4:  "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA0civu445DMIgwqywDAxP0StJMOYiHSEdhfiu9a73x4s=\n-----END PUBLIC KEY-----\n",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/identity/device.json:5:  "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEOkzmNyAfYFZUac4RLXWLQhNMzb2lucwOcB91G6uoU3\n-----END PRIVATE KEY-----\n",
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/identity/device-auth.json:4:  "tokens": {
+/home/jrybc/.openclaw-backup-work/sanitized/openclaw/identity/device-auth.json:6:      "token": "[TOKEN]",
+Cloning into '/home/jrybc/.openclaw-backup-work/repo'...
+Already on 'main'
+Your branch is up to date with 'origin/main'.
