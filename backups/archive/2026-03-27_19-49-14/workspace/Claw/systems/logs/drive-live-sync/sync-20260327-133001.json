@@ -1,0 +1,24 @@
+{
+  "startedAt": "2026-03-27T13:30:01.837734-04:00",
+  "finishedAt": "2026-03-27T13:30:01.838208-04:00",
+  "dryRun": false,
+  "force": false,
+  "results": [
+    {
+      "key": "active_tasks",
+      "localPath": "/home/jrybc/.openclaw/workspace/Claw/logic/active-tasks-list.md",
+      "driveDocId": "1_xfwcxKHj_s3Umpn_dpFQ2aecP0NcxcsfFCO7TULTuI",
+      "sha256": "b21a07b470b82d4e0e7d871ac84d01e8970281b2634859b650d8e1f8eb736082",
+      "changed": false,
+      "status": "unchanged"
+    },
+    {
+      "key": "live_status",
+      "localPath": "/home/jrybc/.openclaw/workspace/Claw/features/recovery-system/live-system-status-report.md",
+      "driveDocId": "1pAVSbUwCC-IxKf8gAi-8TqrnT1ZruuCEjOszNPYCl0g",
+      "sha256": "af76a2a7efbaa58b9c8acb73763f35fffc73fc18c79be7d8834729386188e56c",
+      "changed": false,
+      "status": "unchanged"
+    }
+  ]
+}
