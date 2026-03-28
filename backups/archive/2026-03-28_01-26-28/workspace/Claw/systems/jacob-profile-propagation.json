@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "lastPropagation": null,
+  "targets": [
+    {
+      "key": "jacob-model-summary",
+      "path": "Claw/logic/Jacob Model Summary.md",
+      "kind": "derived-summary"
+    }
+  ],
+  "history": []
+}

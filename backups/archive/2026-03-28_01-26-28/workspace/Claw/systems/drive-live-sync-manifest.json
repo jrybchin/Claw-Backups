@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "account": "jrybchin@terpmail.umd.edu",
+  "folderId": "1MNmGDxs5w2EXo9Vwsl4V53FG58kbuOt2",
+  "docs": [
+    {
+      "key": "active_tasks",
+      "localPath": "Claw/logic/active-tasks-list.md",
+      "driveDocId": "1_xfwcxKHj_s3Umpn_dpFQ2aecP0NcxcsfFCO7TULTuI",
+      "driveName": "Active Tasks List",
+      "category": "live"
+    },
+    {
+      "key": "live_status",
+      "localPath": "Claw/features/recovery-system/live-system-status-report.md",
+      "driveDocId": "1pAVSbUwCC-IxKf8gAi-8TqrnT1ZruuCEjOszNPYCl0g",
+      "driveName": "Live System Status Report",
+      "category": "live"
+    }
+  ],
+  "futureDocs": [
+    {
+      "key": "channel_active_context",
+      "localPath": "Claw/logic/channel-active-context.md",
+      "driveDocId": "",
+      "driveName": "Current Active Context",
+      "category": "live",
+      "note": "Create in Drive when ready for this to become a first-class mirrored live doc."
+    },
+    {
+      "key": "mission_control_progress",
+      "localPath": "Claw/logic/mission-control-progress.md",
+      "driveDocId": "",
+      "driveName": "Mission Control Progress",
+      "category": "live",
+      "note": "Future progress tracker for Mission Control / Tool Forge implementation."
+    }
+  ]
+}
