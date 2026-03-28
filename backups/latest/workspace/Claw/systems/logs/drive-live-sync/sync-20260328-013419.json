@@ -1,0 +1,50 @@
+{
+  "startedAt": "2026-03-28T01:34:19.671133-04:00",
+  "finishedAt": "2026-03-28T01:34:19.819749-04:00",
+  "dryRun": false,
+  "force": false,
+  "results": [
+    {
+      "key": "active_tasks",
+      "localPath": "/home/jrybc/.openclaw/workspace/Claw/logic/active-tasks-list.md",
+      "driveDocId": "1_xfwcxKHj_s3Umpn_dpFQ2aecP0NcxcsfFCO7TULTuI",
+      "sha256": "7934d68d498e4486f7e05673063717b96fab90ed7dfcf519f4037deff8d0dcde",
+      "changed": true,
+      "command": [
+        "gog",
+        "docs",
+        "write",
+        "1_xfwcxKHj_s3Umpn_dpFQ2aecP0NcxcsfFCO7TULTuI",
+        "--file",
+        "/home/jrybc/.openclaw/workspace/Claw/logic/active-tasks-list.md",
+        "--account",
+        "jrybchin@terpmail.umd.edu"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "docs options: token source: get token for jrybchin@terpmail.umd.edu: read token: no TTY available for keyring file backend password prompt; set GOG_KEYRING_PASSWORD",
+      "status": "error"
+    },
+    {
+      "key": "live_status",
+      "localPath": "/home/jrybc/.openclaw/workspace/Claw/features/recovery-system/live-system-status-report.md",
+      "driveDocId": "1pAVSbUwCC-IxKf8gAi-8TqrnT1ZruuCEjOszNPYCl0g",
+      "sha256": "bb397de426c5e94303a2f648bb4baa1a6027314ebca02b9c19ae8d276a705f46",
+      "changed": true,
+      "command": [
+        "gog",
+        "docs",
+        "write",
+        "1pAVSbUwCC-IxKf8gAi-8TqrnT1ZruuCEjOszNPYCl0g",
+        "--file",
+        "/home/jrybc/.openclaw/workspace/Claw/features/recovery-system/live-system-status-report.md",
+        "--account",
+        "jrybchin@terpmail.umd.edu"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "docs options: token source: get token for jrybchin@terpmail.umd.edu: read token: no TTY available for keyring file backend password prompt; set GOG_KEYRING_PASSWORD",
+      "status": "error"
+    }
+  ]
+}
